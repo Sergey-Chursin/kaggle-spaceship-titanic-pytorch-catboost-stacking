@@ -1,0 +1,33 @@
+# Системные файлы macOS и Jupyter
+**/.DS_Store
+**/.ipynb_checkpoints/
+
+# Папки автоматически создаваемые CatBoost
+**/catboost_info/
+
+# Промежуточные результаты обработки данных
+data/processed/*
+# Исключение чтобы папка отслеживалась
+!data/processed/.gitkeep
+
+# Предикты на новых данных
+predictions/inference/*
+# Исключение чтобы папка отслеживалась
+!predictions/inference/.gitkeep
+
+# Временные файлы Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+
+# Настройки IDE
+.idea/
+
+# Virtual environments and build artifacts (игнорируем локальные 
+окружения, bui$
+venv/
+*.env
+*.egg-info/
+build/
