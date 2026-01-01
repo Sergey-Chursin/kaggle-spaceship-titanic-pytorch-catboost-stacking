@@ -31,3 +31,5 @@ venv/
 *.env
 *.egg-info/
 build/
+# ML Flow
+mlruns/
