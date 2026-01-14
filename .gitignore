@@ -33,3 +33,6 @@ venv/
 build/
 # ML Flow
 mlruns/
+
+# Базы данных Optuna
+models/*.db
