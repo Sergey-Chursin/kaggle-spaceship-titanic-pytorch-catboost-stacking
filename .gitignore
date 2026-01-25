@@ -6,9 +6,9 @@
 **/catboost_info/
 
 # Промежуточные результаты обработки данных
-data/processed/*
+# data/processed/*
 # Исключение чтобы папка отслеживалась
-!data/processed/.gitkeep
+# !data/processed/.gitkeep
 
 # Предикты на новых данных
 predictions/inference/*
